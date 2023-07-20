@@ -19,7 +19,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1em;
 }
 .nav div {
     display: flex;
@@ -41,15 +41,17 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 1em;
 }
 .hero div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .tri img {
     display: flex;
+    width: 300pt;
+    height: 300pt;
 }
 
 /* info stat*/
@@ -65,39 +67,37 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em 12em;
 }
 .assets {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     margin: 1rem;
     
 }
-.assets div {
-    margin: 2rem;
-}
 
 .tab {
     border-radius: 0.12em;
-    background-image: linear-gradient(#E2DCC8, #eeee);
+    background-image: linear-gradient(#DFD7BF, #eeee);
+    padding: 1em 4em;
 }
+
+
 
 .intro div span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1em;
-}
-
-.intro span {
-    padding: 1rem;
-    padding-left: 1rem;
+    
     display: block;
     text-align: center;
 }
 
+.text span {
+    padding: 1em;
+}
+.topic span {
+    padding: 2rem;
+}
 
 h1 {
     width: auto;
@@ -231,17 +231,22 @@ iframe {
 @media screen and (max-width: 709px){
     .nav {
         flex-direction: column;
+        padding: 1em 1em 0em 1em;
     }
     .nav div {
         flex-direction: column;
         margin-bottom: 10px;
         padding-right: 0;
     }
+    .hero {
+        padding: 0 1em 1em 1em;
+    }
     .info {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
     }
     .stats {
         flex-direction: column;
@@ -261,6 +266,11 @@ iframe {
         flex-direction: column;
         padding: 1rem;
     }
+    .tri img {
+        height: 200pt;
+        width: 200pt;
+    }
+    
 }
 @media screen and (max-width: 1220px) {
     .assets {
@@ -280,14 +290,14 @@ iframe {
         flex-direction: row;
     }
     .tri img {
-        height: 140pt;
-        width: 140pt;
+        height: 130pt;
+        width: 130pt;
     }
 }
 
 @media screen and (max-width: 500px) {
     .tri img {
-        height: 140pt;
-        width: 140pt;
+        height: 130pt;
+        width: 130pt;
     }
 }
