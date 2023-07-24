@@ -333,3 +333,86 @@ iframe {
         width: 140pt;
     }
 }
+
+/* WHY SECTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.why {
+    padding: 1em 2em 4em 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why div div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.why div div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.why span {
+    padding: 1em 14em;
+}
+
+.why a {
+    border-radius: .1em;
+    border: 0.1em solid #171717;
+    margin: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #171717;
+}
+
+.why a:hover {
+    color: #eeee;
+    background-image: linear-gradient(#171717, #202C39);
+}
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 870px) {
+    .why div div {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .why span {
+        padding: 1em;
+    }
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    padding: 0 1em 2em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    height: 5em;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width : 600px) {}
