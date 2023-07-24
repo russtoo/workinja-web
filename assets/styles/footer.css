@@ -1,0 +1,20 @@
+/* FOOTER SECTION */
+
+.footer {
+    padding: 0 1em 2em 1em;
+}
+
+.footer img {
+    height: 7em;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width : 600px) {
+}

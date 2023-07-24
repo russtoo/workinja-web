@@ -1,0 +1,37 @@
+/* WHY SECTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.why {
+    padding: 1em 2em 4em 2em ;
+}
+
+.why div div {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.why div div div {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.why span {
+    padding: 1em 14em;
+}
+
+/* MOBILE VIEW */
+@media screen and (max-width: 870px) {
+    .why div div {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 1em;
+    }
+    .why span {
+        padding: 1em;
+    }
+}
