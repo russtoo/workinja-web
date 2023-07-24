@@ -316,14 +316,14 @@ iframe {
         flex-direction: row;
     }
     .tri img {
-        height: 130pt;
-        width: 130pt;
+        height: 140pt;
+        width: 140pt;
     }
 }
 
 @media screen and (max-width: 500px) {
     .tri img {
-        height: 130pt;
-        width: 130pt;
+        height: 140pt;
+        width: 140pt;
     }
 }
