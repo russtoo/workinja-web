@@ -1,12 +1,40 @@
 
+.nav {
+    justify-content: space-between;
+    padding: 2em 7em;
+}
 
 .nav div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 
-@media only screen and (max-width : 900px) {
-   
+.nav span {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav span:hover {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width : 700px) {
+.nav {
+        flex-direction: row;
+        padding: 2em 7em
+    }
+
+    .nav div {
+        flex-direction: row;
+        margin-bottom: 0;
+        padding-right: 0;
+    }
 }
