@@ -14,12 +14,6 @@ ul {
     color: #222831;
 }
 
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* nav*/
 .nav {
     display: flex;
