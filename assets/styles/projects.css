@@ -13,7 +13,7 @@
 
 .nav span {
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 900;
     text-decoration: none;
 }
 
@@ -25,9 +25,58 @@
     text-decoration: none;
 }
 
+.project-logo1 img {
+    width: 270px;
+    height: auto;
+}
 
-@media only screen and (max-width : 700px) {
-.nav {
+.project-logo2 img {
+    width: 370px;
+    height: auto;
+}
+
+.visit-link img {
+    margin-bottom: -9px;
+}
+
+.link div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+
+.link {
+    padding: 4em
+}
+
+.projects {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects span {
+    text-align: center;
+}
+
+@media only screen and (max-width : 900px) {
+    .nav { 
         flex-direction: row;
         padding: 2em 7em
     }
@@ -36,5 +85,8 @@
         flex-direction: row;
         margin-bottom: 0;
         padding-right: 0;
+    }
+    .projects div {
+        flex-direction: column;
     }
 }

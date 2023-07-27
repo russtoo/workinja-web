@@ -12,7 +12,7 @@ document.getElementById("h1").onmouseover = (event) => {
                     //Randomizes when each character get set
                     return event.target.dataset.value[index];
                 } //If index is not matching will present randomizing char from letter array
-                return letter[Math.floor(Math.random() * 26)];
+                return letters[Math.floor(Math.random() * 26)];
             })
             .join("");
         //Clears interval once the text matches the Data set
