@@ -1,31 +1,5 @@
 
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2em 7em;
-}
-
-.nav div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.nav span {
-    font-size: 1.1em;
-    font-weight: 900;
-    text-decoration: none;
-}
-
-.nav span:hover {
-    text-decoration: none;
-}
-
-.nav a:hover {
-    text-decoration: none;
-}
+/* PROJECTS */
 
 .project-logo1 img {
     width: 270px;
