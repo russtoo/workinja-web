@@ -4,92 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/general.css">
-    <link rel="stylesheet" href="/assets/styles/projects.css">
+    <link rel="stylesheet" href="./assets/styles/projects.css">
+    <link rel="stylesheet" href="./assets/styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Chivo+Mono:wght@700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="js" href="/index.js">
-    <link rel="js" href="/text.js">
+    <link rel="js" href="./index.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
-    <title>Workinja Web Contact</title>
+    <title>Contact Workinja</title>
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            text-align: center;
-        }
-    
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            resize: vertical;
-        }
-    
-        button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            margin-right: 10px;
-            margin: 10px 0;
-        }
-    
-        button:hover {
-            background-color: #0056b3;
-        }
-    
-        #sendButtons {
-            margin-top: 20px;
-        }
-        .nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 2em 7em;
-        }
-
-        .nav div {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
-        }
-
-        .nav span {
-            font-size: 1.1em;
-            font-weight: 900;
-            text-decoration: none;
-        }
-
-        .nav span:hover {
-            text-decoration: none;
-        }
-
-        .nav a:hover {
-            text-decoration: none;
-        }
-        @media only screen and (max-width : 900px) {
-            .nav { 
+        @media screen and (max-width: 709px) {
+            .nav {
                 flex-direction: row;
-                padding: 2em 7em
+                padding: 1em;
             }
 
             .nav div {
                 flex-direction: row;
-                margin-bottom: 0;
-                padding-right: 0;
+                margin-bottom: 10px;
+                padding-right: 1em;
             }
-            .projects div {
-                flex-direction: column;
-            }
+        }
+        .footer {
+            padding-top: 4em;
         }
     </style>
 </head>
@@ -97,63 +39,38 @@
     <!-- NAV SECTION -->
     <nav id="nav" class="nav">
         <div>
-            <a href="/index.html" style="display: flex; flex-direction: row; align-items: center;">
-                <img src="/assets/svg/return-back-symbol.svg" alt="">
-            </a>
-        </div>
-        <div><a href=""><span>Contact</span></a></div>
-        <div></div>
-    </nav>
-    
-    <section class="projects">
-        <div><span>Get in touch with us:</span></div>
-        <div>
             <div>
-                <textarea id="message" placeholder="Enter your message"></textarea>
-                <button id="sendWhatsappButton">Send via WhatsApp</button>
-                <button id="sendEmailButton">Send via Email</button>
-                
-                <script>
-                    const whatsappNumber = "your_whatsapp_number"; // Replace with your actual WhatsApp number
-
-                    document.getElementById("sendWhatsappButton").addEventListener("click", function () {
-                        const message = encodeURIComponent(document.getElementById("message").value);
-                        window.open(`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`);
-                    });
-
-                    document.getElementById("sendEmailButton").addEventListener("click", function () {
-                        const message = encodeURIComponent(document.getElementById("message").value);
-                        const subject = encodeURIComponent("Message from Website");
-
-                        // Replace 'your_email@example.com' with your actual email address or the recipient's email address.
-                        window.location.href = `mailto:workinja.co.za@gmail.com?subject=${subject}&body=${message}`;
-                    });
-                </script>
+                <a href="./index.html"><img src="./assets/svg/Vector.svg" alt=""></a>
+            </div>
+            <div>
+                <a href="" style="font-size: 1.1rem; font-weight: 700; text-decoration: none;">|</a>
             </div>
         </div>
-        
+        <div>
+            <div>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
 
+    
+    <section class="contact">
+        <div>
+            <span>Leave a message on
+                <a href="https://wa.me/+27740165477">Whatsapp</a>
+            </span>
+        </div>
     </section>
 
     <!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <div class="footer-redirect">
-            <div><span>Return <a href="./contact.html">home</a></span></div>
-            <div><span>View our <a href="">Service</a></span></div>
+            <div><span>Return <a href="./contact.html">Home</a></span></div>
+            <div><span>View our <a href="">Services</a></span></div>
             <div><span>See our <a href="./projects.html">Projects</a></span></div>
         </div>
         <div class="footer-end">
             <div>
-                <div>
-                    <img src="./assets/svg/footer-triangle-shape.svg" alt="">
-                </div>
-                <div>
-                    <img src="./assets/svg/footer-square-shape.svg" alt="">
-                </div>
-                <div>
-                    <img src="./assets/svg/footer-circle-shape.svg" alt="">
-                </div>
-            </div>
             <div>
                 <span>© 2023 Workinja.</span>
             </div>

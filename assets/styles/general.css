@@ -82,12 +82,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 
 .why span {
-    padding: 1em 14em;
+    padding: 1em 10em;
 }
 
 .why a {
@@ -100,8 +100,8 @@ ul {
 }
 
 .why a:hover {
-    color: #eeee;
-    background-image: linear-gradient(#171717, #202C39);
+    color: #ffff;
+    background-image: linear-gradient(#171717, #444);
 }
 
 
@@ -122,13 +122,13 @@ ul {
 .footer {
     padding: 0 1em 2em 1em;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
 }
 
 .footer img {
-    height: 3em;
+    height: 4em;
 }
 
 .footer-end div {
@@ -154,7 +154,7 @@ ul {
     text-decoration: underline;
 }
 .footer-redirect div {
-    padding: 1em;
+    padding: 0.2em;
 }
 .footer-redirect {
     display: flex;

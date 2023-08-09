@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 709px) {
+    .nav {
+        flex-direction: row;
+        padding: 1em;
+    }
+
+    .nav div {
+        flex-direction: row;
+        margin-bottom: 10px;
+        padding-right: 1em;
+    }
+}
+
+.footer {
+    padding-top: 4em;
+    bottom: 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 9em 4em ;
+}
+
+.contact div a {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

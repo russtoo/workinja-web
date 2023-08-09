@@ -3,98 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workinja Projects</title>
+    <title>Web Projects</title>
     <link rel="stylesheet" href="./assets/styles/general.css">
-    <link rel="stylesheet" href="/assets/styles/projects.css">
+    <link rel="stylesheet" href="./assets/styles/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Chivo+Mono:wght@700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="js" href="/index.js">
-    <link rel="js" href="/text.js">
+    <link rel="js" href="index.js">
     <style>
-        .nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 2em 7em;
-        }
-
-        .nav div {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
-        }
-
-        .nav span {
-            font-size: 1.1em;
-            font-weight: 900;
-            text-decoration: none;
-        }
-
-        .nav span:hover {
-            text-decoration: none;
-        }
-
-        .nav a:hover {
-            text-decoration: none;
-        }
-        @media only screen and (max-width : 900px) {
-            .nav { 
+        @media screen and (max-width: 709px) {
+            .nav {
                 flex-direction: row;
-                padding: 2em 7em
+                padding: 1em;
             }
 
             .nav div {
                 flex-direction: row;
-                margin-bottom: 0;
-                padding-right: 0;
-            }
-            .projects div {
-                flex-direction: column;
+                margin-bottom: 10px;
+                padding-right: 1em;
             }
         }
+        .footer {
+            padding-top: 4em;
+        }
     </style>
-
 </head>
 <body>
     <!-- NAV SECTION -->
+
     <nav id="nav" class="nav">
         <div>
-            <a href="/index.html" style="display: flex; flex-direction: row; align-items: center;">
-                <img src="/assets/svg/return-back-symbol.svg" alt="">
-            </a>
+            <div>
+                <a href="./index.html"><img src="./assets/svg/Vector.svg" alt=""></a>
+            </div>
+            <div>
+                <a href="" style="font-size: 1.1rem; font-weight: 700; text-decoration: none;">|</a>
+            </div>
         </div>
-        <div><a href=""><span>Projects</span></a></div>
-        <div></div>
+        <div>
+            <div>
+                <a href="./projects.html">Projects</a>
+            </div>
+        </div>
     </nav>
 
 
     <!-- PROJECT SECTION -->
     <section id="projects" class="projects">
         <title>
-            Workinja Projects
+            Workinja Web Projects
         </title>
-        <div><span>Here are some of the projects we have worked on:</span></div>
         <div>
             <div class="link">
                 <div class="project-logo1">
-                    <img src="/assets/logo/Ingos Coffee Bar full logo.png" alt="Ingos Coffee Bar Logo">
+                    <img src="./assets/logo/Ingos Coffee Bar full logo.png" alt="Ingos Coffee Bar Logo">
                 </div>
                 <div class="visit-link">
                     <a href="https://www.ingoscoffeebar.com"><i>ingoscoffeebar.com</i>
-                        <img src="/assets/icons/plan icons/link-icon.svg" alt="">
+                        <img src="./assets/icons/plan icons/link-icon.svg" alt="">
                     </a>
                 </div>
             </div>
             <div class="link">
                 <div class="project-logo2">
-                    <img src="/assets/logo/Bantu Stall Logo (Color) .png" alt="Bantu Stall Logo">
+                    <img src="./assets/logo/Bantu Stall Logo (Color) .png" alt="Bantu Stall Logo">
                 </div>
                 <div class="visit-link">
                     <a href="https://www.bantustall.com"><i>bantustall.com</i><img src="/assets/icons/plan icons/link-icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="link">
+                <div class="project-logo3">
+                    <img src="./assets/logo/cafe momo logo.png" alt="Bantu Stall Logo">
+                </div>
+                <div class="visit-link">
+                    <a href="https://www.bantustall.com"><i>cafemomo.co.zw</i><img src="/assets/icons/plan icons/link-icon.svg"
+                            alt="">
                     </a>
                 </div>
             </div>
@@ -104,22 +91,11 @@
     <!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <div class="footer-redirect">
-            <div><span>Return <a href="">home</a></span></div>
-            <div><span>View our <a href="">Service</a></span></div>
+            <div><span>Return <a href="./index.html">Home</a></span></div>
+            <div><span>View our <a href="">Services</a></span></div>
             <div><span><a href="./contact.html">Contact</a> us</span></div>
         </div>
         <div class="footer-end">
-            <div>
-                <div>
-                    <img src="./assets/svg/footer-triangle-shape.svg" alt="">
-                </div>
-                <div>
-                    <img src="./assets/svg/footer-square-shape.svg" alt="">
-                </div>
-                <div>
-                    <img src="./assets/svg/footer-circle-shape.svg" alt="">
-                </div>
-            </div>
             <div>
                 <span>© 2023 Workinja.</span>
             </div>
