@@ -9,10 +9,15 @@ body {
 
 span {
     color: #222831;
+    font-size: .9rem;
 }
 
 ul {
     color: #222831;
+}
+
+a {
+    font-size: 1rem;
 }
 
 /* nav*/
@@ -31,13 +36,13 @@ ul {
 .nav div a {
     text-decoration: none;
     color: #222831;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .nav a:hover {
     text-decoration: underline;
 }
 .nav div img {
-    height: 3rem;
+    height: 2.5rem;
 }
 
 /* hero */
@@ -73,21 +78,21 @@ ul {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
-    padding: 1em;
+    padding: .7em 3em;
 }
 
 .why div div div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 .why span {
-    padding: 1em 10em;
+    padding: 1em 25em;
 }
 
 .why a {
