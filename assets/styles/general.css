@@ -52,7 +52,7 @@ a {
     align-items: center;
     padding: 1em;
 }
-.hero div {
+.tri {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,22 +80,23 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: .7em 3em;
+    padding: 0em 3em;
 }
 
 .why div div div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: .3em 3em;
 }
 
 .why span {
-    padding: 1em 25em;
+    padding: 1em 17em;
 }
 
-.why a {
+.why a i {
     border-radius: .1em;
     border: 0.1em solid #171717;
     margin: 1em;
@@ -104,9 +105,15 @@ a {
     color: #171717;
 }
 
-.why a:hover {
+.why a i:hover {
     color: #ffff;
     background-image: linear-gradient(#171717, #444);
+}
+
+.why a {
+    text-decoration: none;
+    padding: 2em;
+    font-size: .95em;
 }
 
 
@@ -114,7 +121,6 @@ a {
 @media screen and (max-width: 870px) {
     .why div div {
         flex-direction: column;
-        padding: 1em;
     }
 
     .why span {
