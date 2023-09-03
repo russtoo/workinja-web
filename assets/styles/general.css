@@ -81,6 +81,7 @@ a {
     justify-content: center;
     flex-direction: row;
     padding: 0em 3em;
+    text-align: justify;
 }
 
 .why div div div {
@@ -115,7 +116,9 @@ a {
     padding: 2em;
     font-size: .95em;
 }
-
+.learn_more:hover {
+    text-decoration: underline;
+}
 
 /* MOBILE VIEW */
 @media screen and (max-width: 870px) {
@@ -159,6 +162,7 @@ a {
 
 .footer a {
     text-decoration: none;
+    font-size: inherit;
 }
 
 .footer a:hover {
